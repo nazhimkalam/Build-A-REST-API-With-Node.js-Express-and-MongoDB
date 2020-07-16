@@ -1,0 +1,28 @@
+GET http://localhost:3000/marvelCharacters
+
+###
+
+GET http://localhost:3000/marvelCharacters/5f1094e6562ed74808786160
+
+###
+
+POST http://localhost:3000/marvelCharacters
+Content-Type: application/json
+
+{
+    "name":"Captain America",
+    "gender":"male",
+    "strengths":"Sheild"
+}
+
+###
+
+DELETE http://localhost:3000/marvelCharacters/5f1094e6562ed74808786160
+
+###
+PATCH http://localhost:3000/marvelCharacters/5f10952fb4319f2d6476d909
+Content-Type: application/json
+
+{
+    "name":"Nazhim Kalam"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "build-a-rest-api-with-node.js--express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazhimkalam/Build-A-REST-API-With-Node.js-Express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazhimkalam/Build-A-REST-API-With-Node.js-Express/issues"
+  },
+  "homepage": "https://github.com/nazhimkalam/Build-A-REST-API-With-Node.js-Express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
